@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: #007bff;
+}
+
+header p {
+    color: #666;
+    margin: 5px 0 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    padding-bottom: 5px;
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+.subheading {
+    font-style: italic;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li::before {
+    content: "• ";
+    color: #007bff;
+    font-weight: bold;
+}
+
+.skills li, .experience ul li {
+    margin-bottom: 5px;
+}
